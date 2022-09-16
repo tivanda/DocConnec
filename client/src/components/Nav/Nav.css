@@ -1,0 +1,43 @@
+.Navbar{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #005d82;
+    padding: 2px 2%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 9px 8px 10px #888888;
+ 
+       
+}
+
+.logo {
+    width: 160px;
+
+    width: 200px;
+}
+
+.navIconn {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+   gap:2rem;
+
+
+}
+.nav-left{
+    display: flex;
+
+}
+.navIconn>img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.exitbutton{
+    cursor: pointer;
+}
+.nav-right{
+    padding-left: 8%;
+}
